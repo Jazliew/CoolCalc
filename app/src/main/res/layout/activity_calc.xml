@@ -40,7 +40,7 @@
 
             <LinearLayout
                 android:layout_width="match_parent"
-                android:layout_height="match_parent"
+                android:layout_height="89dp"
                 android:orientation="horizontal"
                 android:weightSum="4">
 
@@ -49,44 +49,187 @@
                     android:layout_width="fill_parent"
                     android:layout_height="fill_parent"
                     android:layout_weight="1"
-                    android:text="7" />
+                    android:background="#01ffffff"
+                    android:text="7"
+                    android:textColor="@android:color/black"
+                    android:textSize="30sp" />
 
                 <Button
                     android:id="@+id/button3"
                     android:layout_width="fill_parent"
                     android:layout_height="fill_parent"
                     android:layout_weight="1"
-                    android:text="8" />
+                    android:background="#01ffffff"
+                    android:text="8"
+                    android:textColor="@android:color/black"
+                    android:textSize="30sp" />
 
                 <Button
                     android:id="@+id/button4"
                     android:layout_width="fill_parent"
                     android:layout_height="fill_parent"
                     android:layout_weight="1"
-                    android:text="9" />
+                    android:background="#01ffffff"
+                    android:text="9"
+                    android:textColor="@android:color/black"
+                    android:textSize="30sp" />
 
                 <ImageButton
                     android:id="@+id/imageButton"
                     android:layout_width="fill_parent"
                     android:layout_height="fill_parent"
                     android:layout_weight="1"
+                    android:background="#00ffffff"
+                    android:src="@drawable/divide"
                     app:srcCompat="@drawable/divide" />
+
             </LinearLayout>
 
             <LinearLayout
                 android:layout_width="match_parent"
-                android:layout_height="match_parent"
-                android:orientation="horizontal"></LinearLayout>
+                android:layout_height="89dp"
+                android:orientation="horizontal"
+                android:weightSum="4">
+
+                <Button
+                    android:id="@+id/button"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:layout_weight="1"
+                    android:background="#01ffffff"
+                    android:text="4"
+                    android:textColor="@android:color/black"
+                    android:textSize="30sp" />
+
+                <Button
+                    android:id="@+id/button3"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:layout_weight="1"
+                    android:background="#01ffffff"
+                    android:text="5"
+                    android:textColor="@android:color/black"
+                    android:textSize="30sp" />
+
+                <Button
+                    android:id="@+id/button4"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:layout_weight="1"
+                    android:background="#01ffffff"
+                    android:text="6"
+                    android:textColor="@android:color/black"
+                    android:textSize="30sp" />
+
+                <ImageButton
+                    android:id="@+id/imageButton"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:layout_weight="1"
+                    android:background="#00ffffff"
+                    android:src="@drawable/multiply"
+                    app:srcCompat="@drawable/multiply" />
+
+            </LinearLayout>
 
             <LinearLayout
                 android:layout_width="match_parent"
-                android:layout_height="match_parent"
-                android:orientation="horizontal"></LinearLayout>
+                android:layout_height="89dp"
+                android:orientation="horizontal"
+                android:weightSum="4">
+
+                <Button
+                    android:id="@+id/button"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:layout_weight="1"
+                    android:background="#01ffffff"
+                    android:text="1"
+                    android:textColor="@android:color/black"
+                    android:textSize="30sp" />
+
+                <Button
+                    android:id="@+id/button3"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:layout_weight="1"
+                    android:background="#01ffffff"
+                    android:text="2"
+                    android:textColor="@android:color/black"
+                    android:textSize="30sp" />
+
+                <Button
+                    android:id="@+id/button4"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:layout_weight="1"
+                    android:background="#01ffffff"
+                    android:text="3"
+                    android:textColor="@android:color/black"
+                    android:textSize="30sp" />
+
+                <ImageButton
+                    android:id="@+id/imageButton"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:layout_weight="1"
+                    android:background="#00ffffff"
+                    android:src="@drawable/subtract"
+                    app:srcCompat="@drawable/subtract" />
+
+            </LinearLayout>
 
             <LinearLayout
                 android:layout_width="match_parent"
-                android:layout_height="match_parent"
-                android:orientation="horizontal"></LinearLayout>
+                android:layout_height="89dp"
+                android:orientation="horizontal">
+
+                <LinearLayout
+                    android:layout_width="180dp"
+                    android:layout_height="92dp"
+                    android:gravity="center"
+                    android:orientation="vertical">
+
+                    <Button
+                        android:id="@+id/button2"
+                        android:layout_width="150dp"
+                        android:layout_height="wrap_content"
+                        android:background="#37d3ca"
+                        android:text="Clear"
+                        android:textSize="25sp" />
+                </LinearLayout>
+
+                <Button
+                    android:id="@+id/button4"
+                    android:layout_width="89dp"
+                    android:layout_height="fill_parent"
+                    android:background="#01ffffff"
+                    android:text="0"
+                    android:textColor="@android:color/black"
+                    android:textSize="30sp" />
+
+                <ImageButton
+                    android:id="@+id/imageButton"
+                    android:layout_width="match_parent"
+                    android:layout_height="fill_parent"
+                    android:background="#00ffffff"
+                    android:src="@drawable/add"
+                    app:srcCompat="@drawable/add" />
+
+            </LinearLayout>
+
         </LinearLayout>
+
+        <ImageButton
+            android:id="@+id/imageButton3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="false"
+            android:layout_alignParentRight="true"
+            android:background="#00ffffff"
+            android:paddingRight="30dp"
+            android:paddingTop="110dp"
+            android:src="@drawable/equal"
+            app:srcCompat="@drawable/equal" />
     </RelativeLayout>
 </android.support.constraint.ConstraintLayout>
